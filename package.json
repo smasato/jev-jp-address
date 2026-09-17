@@ -1,0 +1,33 @@
+{
+  "name": "jev-jp-address",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p . --noEmit",
+    "test": "node --import tsx --test test/*.test.ts",
+    "cli": "tsx src/cli.ts",
+    "eval": "tsx scripts/evaluate.ts",
+    "robustness": "tsx scripts/robustness.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@ai-sdk/typesafe-ai": "^3.0.2",
+    "ai": "^7.0.105"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.5",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  },
+  "bin": {
+    "jev-jp-address": "dist/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

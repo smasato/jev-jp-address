@@ -1,0 +1,48 @@
+[
+  {"id": "K01", "input": "東京都千代田区麹町3-12-14 ケンオール株式会社", "category": "基準", "source": "https://kenall.jp/articles/comparison/postal-code-rev-data/", "expect": {"prefecture": "東京都", "city": "千代田区", "town": "麹町", "zip": "1020083"}},
+  {"id": "K02", "input": "東京都千代田区麹町三丁目12番14号 ケンオール株式会社", "category": "漢数字・番/号表記", "source": "https://kenall.jp/articles/comparison/postal-code-rev-data/", "expect": {"prefecture": "東京都", "city": "千代田区", "town": "麹町", "zip": "1020083", "block": "3-12-14"}},
+  {"id": "K03", "input": "千代田区麹町3-12-14 ケンオール株式会社", "category": "都道府県の省略", "source": "https://kenall.jp/articles/comparison/postal-code-rev-data/", "expect": {"prefecture": "東京都", "city": "千代田区", "town": "麹町", "zip": "1020083"}},
+  {"id": "K04", "input": "栃木県宇都宮市戸祭1-10-25 宇都宮市立戸祭小学校", "category": "類似町名の選び分け", "source": "https://kenall.jp/articles/comparison/postal-code-rev-data/", "expect": {"prefecture": "栃木県", "city": "宇都宮市", "town": "戸祭", "zip": "3200056"}},
+  {"id": "K05", "input": "東京都港区芝浦1-16-1 港区芝浦港南地区総合支所", "category": "丁目で番号が分かれる町(1丁目側)", "source": "https://kenall.jp/articles/comparison/postal-code-rev-data/", "expect": {"prefecture": "東京都", "city": "港区", "town": "芝浦", "zip": "1050023", "zipAlt": ["1058516"]}},
+  {"id": "K06", "input": "北海道札幌市中央区北一条西25丁目1-8 札幌市立円山小学校", "category": "丁目で番号が分かれる町(20丁目以降)", "source": "https://kenall.jp/articles/comparison/postal-code-rev-data/", "expect": {"prefecture": "北海道", "city": "札幌市中央区", "town": "北一条西", "zip": "0640821"}},
+  {"id": "K07", "input": "京都市中京区西堀川通御池下る西三坊堀川町521 京都市中京区役所", "category": "京都の通り名・町名の包含", "source": "https://kenall.jp/articles/comparison/postal-code-rev-data/", "expect": {"prefecture": "京都府", "city": "京都市中京区", "town": "西三坊堀川町", "zip": "6048265", "zipAlt": ["6048588"]}},
+  {"id": "K08", "input": "東京都千代田区麹町3-12-14 麹町駅前ヒルトップ ケンオール株式会社", "category": "固有番号を持たない建物名", "source": "https://kenall.jp/articles/comparison/postal-code-rev-data/", "expect": {"prefecture": "東京都", "city": "千代田区", "town": "麹町", "zip": "1020083"}},
+  {"id": "K09", "input": "東京都渋谷区渋谷2-24-12 渋谷スクランブルスクエア15階 SHIBUYA QWS", "category": "高層ビルの階層別番号", "source": "https://kenall.jp/articles/comparison/postal-code-rev-data/", "expect": {"prefecture": "東京都", "city": "渋谷区", "town": "渋谷", "zip": "1506115"}},
+  {"id": "K10", "input": "東京都千代田区霞が関2-1-2 総務省", "category": "大口事業所の個別番号", "source": "https://kenall.jp/articles/comparison/postal-code-rev-data/", "expect": {"prefecture": "東京都", "city": "千代田区", "town": "霞が関", "zip": "1008926"}},
+
+  {"id": "Q01", "input": "東京都千代田区丸ノ内一ー一ー一", "category": "の/ノ揺れ・長音ハイフン・漢数字番地", "source": "https://qiita.com/yosikawa-techwell/items/fc51e4c07cd715dd5cf3", "expect": {"prefecture": "東京都", "city": "千代田区", "town": "丸の内", "zip": "1000005", "block": "1-1-1"}},
+  {"id": "Q02", "input": "東京都 千代田区 丸の内1丁目1番1号", "category": "空白区切り・丁目番号", "source": "https://qiita.com/yosikawa-techwell/items/fc51e4c07cd715dd5cf3", "expect": {"prefecture": "東京都", "city": "千代田区", "town": "丸の内", "zip": "1000005", "block": "1-1-1"}},
+  {"id": "Q03", "input": "〒1000005 東京都千代田区丸の内1-1", "category": "郵便番号前置・号欠落", "source": "https://qiita.com/yosikawa-techwell/items/fc51e4c07cd715dd5cf3", "expect": {"prefecture": "東京都", "city": "千代田区", "town": "丸の内", "zip": "1000005", "block": "1-1"}},
+  {"id": "Q04", "input": "〒1000005 東京都千代田区大手町1-1-1", "category": "郵便番号と住所の不整合 (要レビュー期待)", "source": "https://qiita.com/yosikawa-techwell/items/fc51e4c07cd715dd5cf3", "expect": {"prefecture": "東京都", "city": "千代田区", "town": "大手町", "zip": "1000004", "needsReview": true}},
+  {"id": "Q05", "input": "大田区洗足池1-1", "category": "実在しない町名 (該当なしを期待)", "source": "https://qiita.com/yosikawa-techwell/items/fc51e4c07cd715dd5cf3", "expect": {"prefecture": "東京都", "city": "大田区", "town": null, "needsReview": true}},
+  {"id": "Q06", "input": "京都市中京区東洞院通三条上る曇華院前町706", "category": "京都の通り名", "source": "https://qiita.com/yosikawa-techwell/items/fc51e4c07cd715dd5cf3", "expect": {"prefecture": "京都府", "city": "京都市中京区", "town": "曇華院前町", "zip": "6048184"}},
+
+  {"id": "Z01", "input": "京都市中京区寺町通御池上る上本能寺前町", "category": "京都の通り名", "source": "https://www.zenrin-ms.co.jp/blog/articles/what-is-address-normalization/", "expect": {"prefecture": "京都府", "city": "京都市中京区", "town": "上本能寺前町", "zip": "6040925"}},
+  {"id": "Z02", "input": "札幌市中央区北1条西2丁目", "category": "条丁目 (算用数字→漢数字町名)", "source": "https://www.zenrin-ms.co.jp/blog/articles/what-is-address-normalization/", "expect": {"prefecture": "北海道", "city": "札幌市中央区", "town": "北一条西", "zip": "0600001"}},
+  {"id": "Z03", "input": "東京都渋谷区千駄ケ谷1-1", "category": "ケ/ヶ揺れ", "source": "https://www.zenrin-ms.co.jp/blog/articles/what-is-address-normalization/", "expect": {"prefecture": "東京都", "city": "渋谷区", "town": "千駄ヶ谷", "zip": "1510051"}},
+
+  {"id": "X01", "input": "宮城県栗原市栗駒松倉三丁", "category": "「三丁」は丁目ではなく小字", "source": "https://xtech.nikkei.com/atcl/nxt/column/18/01195/030300115/", "expect": {"prefecture": "宮城県", "city": "栗原市", "town": "栗駒松倉", "zip": "9895372"}},
+  {"id": "X02", "input": "札幌市白石区本通20丁目北2-24", "category": "「20丁目北」が丁目 / 本通(北)(南)の選び分け", "source": "https://xtech.nikkei.com/atcl/nxt/column/18/01195/030300115/", "expect": {"prefecture": "北海道", "city": "札幌市白石区", "town": "本通", "zip": "0030027"}},
+  {"id": "X03", "input": "上富良野町東12線北19号", "category": "郡の省略・線/号表記", "source": "https://xtech.nikkei.com/atcl/nxt/column/18/01195/030300115/", "expect": {"prefecture": "北海道", "city": "空知郡上富良野町", "town": "東12線北", "zip": "0710532"}},
+  {"id": "X04", "input": "花巻市太田第31地割", "category": "地割表記", "source": "https://xtech.nikkei.com/atcl/nxt/column/18/01195/030300115/", "expect": {"prefecture": "岩手県", "city": "花巻市", "town": "太田", "zip": "0250037"}},
+  {"id": "X05", "input": "七尾市袖ケ江町イ25", "category": "カタカナ小字「イ」", "source": "https://xtech.nikkei.com/atcl/nxt/column/18/01195/030300115/", "expect": {"prefecture": "石川県", "city": "七尾市", "town": "袖ケ江町", "zip": "9260045"}},
+  {"id": "X06", "input": "大田市大田町大田イ421-1", "category": "同一文字列の繰り返し・カタカナ番地", "source": "https://xtech.nikkei.com/atcl/nxt/column/18/01195/030300115/", "expect": {"prefecture": "島根県", "city": "大田市", "town": "大田町大田", "zip": "6940064"}},
+  {"id": "X07", "input": "秋田県男鹿市脇本脇本脇本", "category": "大字=脇本脇本、小字=脇本", "source": "https://xtech.nikkei.com/atcl/nxt/column/18/01195/030300115/", "expect": {"prefecture": "秋田県", "city": "男鹿市", "town": "脇本脇本", "zip": "0100342"}},
+  {"id": "X08", "input": "東京都千代田区霞ヶ関2-1-2", "category": "が/ヶ揺れ", "source": "https://xtech.nikkei.com/atcl/nxt/column/18/01195/030300115/", "expect": {"prefecture": "東京都", "city": "千代田区", "town": "霞が関", "zip": "1000013"}},
+  {"id": "X09", "input": "東京都中央区日本橋一丁目二番三〇一―一二三アパート", "category": "漢数字番地・部屋番号・数字始まりの建物名", "source": "https://xtech.nikkei.com/atcl/nxt/column/18/01195/030300115/", "expect": {"prefecture": "東京都", "city": "中央区", "town": "日本橋", "zip": "1030027"}},
+  {"id": "X10", "input": "京都市中京区御幸町通二条下る山本町", "category": "京都の通り名", "source": "https://xtech.nikkei.com/atcl/nxt/column/18/01195/030300115/", "expect": {"prefecture": "京都府", "city": "京都市中京区", "town": "山本町", "zip": "6040933"}},
+  {"id": "X11", "input": "大阪府大阪市中央区久太郎町4丁目渡辺-3", "category": "文字番地「渡辺」", "source": "https://xtech.nikkei.com/atcl/nxt/column/18/01195/030300115/", "expect": {"prefecture": "大阪府", "city": "大阪市中央区", "town": "久太郎町", "zip": "5410056"}},
+
+  {"id": "G01", "input": "北海道札幌市西区24-2-2-3-3", "category": "条丁目が数字に潰れた表記", "source": "https://github.com/geolonia/normalize-japanese-addresses", "expect": {"prefecture": "北海道", "city": "札幌市西区", "town": "二十四軒二条", "zip": "0630802"}},
+
+  {"id": "B01", "input": "京都市上京区東堀川通上長者町上る一町目", "category": "同名町域が複数(通り名で郵便番号が分かれる)", "source": "https://blog.kenall.jp/entry/kenall-newsletter-vol14", "expect": {"prefecture": "京都府", "city": "京都市上京区", "town": "一町目", "zip": "6028064", "zipAlt": ["6028134", "6028103"]}},
+  {"id": "B02", "input": "京都市東山区渋谷通東大路東入２丁目常盤町", "category": "京都の通り名に含まれる「丁目」", "source": "https://blog.kenall.jp/entry/kenall-newsletter-vol14", "expect": {"prefecture": "京都府", "city": "京都市東山区", "town": "常盤町", "zip": "6050874", "zipAlt": ["6050079"]}},
+
+  {"id": "M01", "input": "東京都利島村", "category": "「一円」レコード", "source": "KEN_ALL 特殊レコード", "expect": {"prefecture": "東京都", "city": "利島村", "town": "", "zip": "1000301"}},
+  {"id": "M02", "input": "茨城県竜ケ崎市3710", "category": "旧字/新字 (龍↔竜)・町域なし直接番地", "source": "https://qiita.com/yosikawa-techwell/items/fc51e4c07cd715dd5cf3", "expect": {"prefecture": "茨城県", "city": "龍ケ崎市", "town": "", "zip": "3010000"}},
+  {"id": "M03", "input": "宮城県塩釜市旭町1-1", "category": "竈↔釜 揺れ", "source": "https://qiita.com/yosikawa-techwell/items/fc51e4c07cd715dd5cf3", "expect": {"prefecture": "宮城県", "city": "塩竈市", "town": "旭町"}},
+  {"id": "M04", "input": "府中市宮西町2-24", "category": "同名市(東京都/広島県)で都道府県省略", "source": "独自 (同名市区町村)", "expect": {"prefecture": "東京都", "city": "府中市", "town": "宮西町", "zip": "1830022"}},
+  {"id": "M05", "input": "とうきょうとちよだくかすみがせき2-1-2", "category": "全ひらがな入力", "source": "独自 (表記揺れ極端例)", "expect": {"prefecture": "東京都", "city": "千代田区", "town": "霞が関", "zip": "1000013"}},
+  {"id": "M06", "input": "神奈川県横浜市港北区新横浜二丁目１００番地４５ 新横浜中央ビル 5F", "category": "全角数字・番地・建物階", "source": "独自", "expect": {"prefecture": "神奈川県", "city": "横浜市港北区", "town": "新横浜", "zip": "2220033", "block": "2-100-45"}},
+  {"id": "M07", "input": "愛知県名古屋市中区栄三丁目", "category": "町域のみ(番地なし)", "source": "独自", "expect": {"prefecture": "愛知県", "city": "名古屋市中区", "town": "栄", "zip": "4600008"}}
+]

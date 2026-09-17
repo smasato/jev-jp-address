@@ -1,0 +1,1786 @@
+[
+  {
+    "id": "K01",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "東京都千代田区麹町3-12-14 ケンオール株式会社",
+      "normalized": "東京都千代田区麹町3-12-14 ケンオール株式会社",
+      "postalCode": "1020083",
+      "postalCodeKind": "town",
+      "townPostalCode": "1020083",
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "town": "麹町",
+      "block": "3-12-14",
+      "building": "ケンオール株式会社",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "千代田区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "麹町",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "K02",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "東京都千代田区麹町三丁目12番14号 ケンオール株式会社",
+      "normalized": "東京都千代田区麹町3-12-14 ケンオール株式会社",
+      "postalCode": "1020083",
+      "postalCodeKind": "town",
+      "townPostalCode": "1020083",
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "town": "麹町",
+      "block": "3-12-14",
+      "building": "ケンオール株式会社",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "千代田区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "麹町",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "K03",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "千代田区麹町3-12-14 ケンオール株式会社",
+      "normalized": "東京都千代田区麹町3-12-14 ケンオール株式会社",
+      "postalCode": "1020083",
+      "postalCodeKind": "town",
+      "townPostalCode": "1020083",
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "town": "麹町",
+      "block": "3-12-14",
+      "building": "ケンオール株式会社",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "千代田区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "麹町",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "K04",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "栃木県宇都宮市戸祭1-10-25 宇都宮市立戸祭小学校",
+      "normalized": "栃木県宇都宮市戸祭1-10-25 宇都宮市立戸祭小学校",
+      "postalCode": "3200056",
+      "postalCodeKind": "town",
+      "townPostalCode": "3200056",
+      "prefecture": "栃木県",
+      "city": "宇都宮市",
+      "town": "戸祭",
+      "block": "1-10-25",
+      "building": "宇都宮市立戸祭小学校",
+      "stages": {
+        "prefecture": {
+          "value": "栃木県",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "宇都宮市",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "戸祭",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "K05",
+    "townMark": "ok",
+    "zipMark": "partial",
+    "result": {
+      "input": "東京都港区芝浦1-16-1 港区芝浦港南地区総合支所",
+      "normalized": "東京都港区芝浦1-16-1 港区芝浦港南地区総合支所",
+      "postalCode": "1058516",
+      "postalCodeKind": "office",
+      "townPostalCode": "1050023",
+      "prefecture": "東京都",
+      "city": "港区",
+      "town": "芝浦",
+      "block": "1-16-1",
+      "building": "港区芝浦港南地区総合支所",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "港区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "芝浦",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "K06",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "北海道札幌市中央区北一条西25丁目1-8 札幌市立円山小学校",
+      "normalized": "北海道札幌市中央区北一条西25-1-8 札幌市立円山小学校",
+      "postalCode": "0640821",
+      "postalCodeKind": "town",
+      "townPostalCode": "0640821",
+      "prefecture": "北海道",
+      "city": "札幌市中央区",
+      "town": "北一条西",
+      "block": "25-1-8",
+      "building": "札幌市立円山小学校",
+      "stages": {
+        "prefecture": {
+          "value": "北海道",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "札幌市中央区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "北一条西",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "K07",
+    "townMark": "ok",
+    "zipMark": "partial",
+    "result": {
+      "input": "京都市中京区西堀川通御池下る西三坊堀川町521 京都市中京区役所",
+      "normalized": "京都府京都市中京区西三坊堀川町521 京都市中京区役所",
+      "postalCode": "6048588",
+      "postalCodeKind": "office",
+      "townPostalCode": "6048265",
+      "prefecture": "京都府",
+      "city": "京都市中京区",
+      "town": "西三坊堀川町",
+      "block": "521",
+      "building": "京都市中京区役所",
+      "stages": {
+        "prefecture": {
+          "value": "京都府",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "京都市中京区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "西三坊堀川町",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "K08",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "東京都千代田区麹町3-12-14 麹町駅前ヒルトップ ケンオール株式会社",
+      "normalized": "東京都千代田区麹町3-12-14 麹町駅前ヒルトップ ケンオール株式会社",
+      "postalCode": "1020083",
+      "postalCodeKind": "town",
+      "townPostalCode": "1020083",
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "town": "麹町",
+      "block": "3-12-14",
+      "building": "麹町駅前ヒルトップ ケンオール株式会社",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "千代田区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "麹町",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "K09",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "東京都渋谷区渋谷2-24-12 渋谷スクランブルスクエア15階 SHIBUYA QWS",
+      "normalized": "東京都渋谷区渋谷2-24-12 渋谷スクランブルスクエア15階 SHIBUYA QWS",
+      "postalCode": "1506115",
+      "postalCodeKind": "building",
+      "townPostalCode": "1500002",
+      "prefecture": "東京都",
+      "city": "渋谷区",
+      "town": "渋谷",
+      "block": "2-24-12",
+      "building": "渋谷スクランブルスクエア15階 SHIBUYA QWS",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "渋谷区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "渋谷",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "K10",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "東京都千代田区霞が関2-1-2 総務省",
+      "normalized": "東京都千代田区霞が関2-1-2 総務省",
+      "postalCode": "1008926",
+      "postalCodeKind": "office",
+      "townPostalCode": "1000013",
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "town": "霞が関",
+      "block": "2-1-2",
+      "building": "総務省",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "千代田区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "霞が関",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "Q01",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "東京都千代田区丸ノ内一ー一ー一",
+      "normalized": "東京都千代田区丸の内1-1-1",
+      "postalCode": "1000005",
+      "postalCodeKind": "town",
+      "townPostalCode": "1000005",
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "town": "丸の内",
+      "block": "1-1-1",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "千代田区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "丸の内",
+          "method": "ai",
+          "probability": 1,
+          "confidence": 0.99,
+          "alternatives": [
+            {
+              "option": "丸の内",
+              "probability": 1
+            },
+            {
+              "option": "神田猿楽町",
+              "probability": 0
+            },
+            {
+              "option": "神田富山町",
+              "probability": 0
+            }
+          ]
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 1,
+        "inputTokens": 1441,
+        "latencyMs": 152
+      }
+    }
+  },
+  {
+    "id": "Q02",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "東京都 千代田区 丸の内1丁目1番1号",
+      "normalized": "東京都千代田区丸の内1-1-1",
+      "postalCode": "1000005",
+      "postalCodeKind": "town",
+      "townPostalCode": "1000005",
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "town": "丸の内",
+      "block": "1-1-1",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "千代田区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "丸の内",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "Q03",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "〒1000005 東京都千代田区丸の内1-1",
+      "normalized": "東京都千代田区丸の内1-1",
+      "postalCode": "1000005",
+      "postalCodeKind": "town",
+      "townPostalCode": "1000005",
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "town": "丸の内",
+      "block": "1-1",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "千代田区",
+          "method": "zip",
+          "probability": 1
+        },
+        "town": {
+          "value": "丸の内",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "Q04",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "〒1000005 東京都千代田区大手町1-1-1",
+      "normalized": "東京都千代田区大手町1-1-1",
+      "postalCode": "1000004",
+      "postalCodeKind": "town",
+      "townPostalCode": "1000004",
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "town": "大手町",
+      "block": "1-1-1",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "千代田区",
+          "method": "zip",
+          "probability": 1
+        },
+        "town": {
+          "value": "大手町",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": true,
+      "reasons": [
+        "入力の郵便番号 1000005 と解決結果 1000004 が不一致"
+      ],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "Q05",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "大田区洗足池1-1",
+      "normalized": "東京都大田区1-1",
+      "postalCode": null,
+      "postalCodeKind": null,
+      "townPostalCode": null,
+      "prefecture": "東京都",
+      "city": "大田区",
+      "town": null,
+      "block": "1-1",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "大田区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": null,
+          "method": "ai",
+          "probability": 0.58,
+          "confidence": 0.56,
+          "alternatives": [
+            {
+              "option": "__none__",
+              "probability": 0.58
+            },
+            {
+              "option": "池上",
+              "probability": 0.18000000000000002
+            },
+            {
+              "option": "仲池上",
+              "probability": 0.060000000000000005
+            }
+          ]
+        }
+      },
+      "needsReview": true,
+      "reasons": [
+        "町域を特定できません",
+        "町域の確度が低い (0.58)"
+      ],
+      "ai": {
+        "calls": 2,
+        "inputTokens": 3355,
+        "latencyMs": 216
+      }
+    }
+  },
+  {
+    "id": "Q06",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "京都市中京区東洞院通三条上る曇華院前町706",
+      "normalized": "京都府京都市中京区曇華院前町706",
+      "postalCode": "6048184",
+      "postalCodeKind": "town",
+      "townPostalCode": "6048184",
+      "prefecture": "京都府",
+      "city": "京都市中京区",
+      "town": "曇華院前町",
+      "block": "706",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "京都府",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "京都市中京区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "曇華院前町",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "Z01",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "京都市中京区寺町通御池上る上本能寺前町",
+      "normalized": "京都府京都市中京区上本能寺前町",
+      "postalCode": "6040925",
+      "postalCodeKind": "town",
+      "townPostalCode": "6040925",
+      "prefecture": "京都府",
+      "city": "京都市中京区",
+      "town": "上本能寺前町",
+      "block": "",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "京都府",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "京都市中京区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "上本能寺前町",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "Z02",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "札幌市中央区北1条西2丁目",
+      "normalized": "北海道札幌市中央区北一条西2",
+      "postalCode": "0600001",
+      "postalCodeKind": "town",
+      "townPostalCode": "0600001",
+      "prefecture": "北海道",
+      "city": "札幌市中央区",
+      "town": "北一条西",
+      "block": "2",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "北海道",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "札幌市中央区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "北一条西",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "Z03",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "東京都渋谷区千駄ケ谷1-1",
+      "normalized": "東京都渋谷区千駄ヶ谷1-1",
+      "postalCode": "1510051",
+      "postalCodeKind": "town",
+      "townPostalCode": "1510051",
+      "prefecture": "東京都",
+      "city": "渋谷区",
+      "town": "千駄ヶ谷",
+      "block": "1-1",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "渋谷区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "千駄ヶ谷",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "X01",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "宮城県栗原市栗駒松倉三丁",
+      "normalized": "宮城県栗原市栗駒松倉3",
+      "postalCode": "9895372",
+      "postalCodeKind": "town",
+      "townPostalCode": "9895372",
+      "prefecture": "宮城県",
+      "city": "栗原市",
+      "town": "栗駒松倉",
+      "block": "3",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "宮城県",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "栗原市",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "栗駒松倉",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "X02",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "札幌市白石区本通20丁目北2-24",
+      "normalized": "北海道札幌市白石区本通20 北2-24",
+      "postalCode": "0030027",
+      "postalCodeKind": "town",
+      "townPostalCode": "0030027",
+      "prefecture": "北海道",
+      "city": "札幌市白石区",
+      "town": "本通",
+      "block": "20",
+      "building": "北2-24",
+      "stages": {
+        "prefecture": {
+          "value": "北海道",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "札幌市白石区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "本通",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "X03",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "上富良野町東12線北19号",
+      "normalized": "北海道空知郡上富良野町東12線北19",
+      "postalCode": "0710532",
+      "postalCodeKind": "town",
+      "townPostalCode": "0710532",
+      "prefecture": "北海道",
+      "city": "空知郡上富良野町",
+      "town": "東12線北",
+      "block": "19",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "北海道",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "空知郡上富良野町",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "東12線北",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "X04",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "花巻市太田第31地割",
+      "normalized": "岩手県花巻市太田 第31地割",
+      "postalCode": "0250037",
+      "postalCodeKind": "town",
+      "townPostalCode": "0250037",
+      "prefecture": "岩手県",
+      "city": "花巻市",
+      "town": "太田",
+      "block": "",
+      "building": "第31地割",
+      "stages": {
+        "prefecture": {
+          "value": "岩手県",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "花巻市",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "太田",
+          "method": "ai",
+          "probability": 1,
+          "confidence": 1,
+          "alternatives": [
+            {
+              "option": "太田",
+              "probability": 1
+            },
+            {
+              "option": "東和町外谷地",
+              "probability": 0
+            },
+            {
+              "option": "東和町新地",
+              "probability": 0
+            }
+          ]
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 1,
+        "inputTokens": 1378,
+        "latencyMs": 76
+      }
+    }
+  },
+  {
+    "id": "X05",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "七尾市袖ケ江町イ25",
+      "normalized": "石川県七尾市袖ケ江町 イ25",
+      "postalCode": "9260045",
+      "postalCodeKind": "town",
+      "townPostalCode": "9260045",
+      "prefecture": "石川県",
+      "city": "七尾市",
+      "town": "袖ケ江町",
+      "block": "",
+      "building": "イ25",
+      "stages": {
+        "prefecture": {
+          "value": "石川県",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "七尾市",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "袖ケ江町",
+          "method": "ai",
+          "probability": 1,
+          "confidence": 1,
+          "alternatives": [
+            {
+              "option": "袖ケ江町",
+              "probability": 1
+            },
+            {
+              "option": "殿町",
+              "probability": 0
+            },
+            {
+              "option": "下町",
+              "probability": 0
+            }
+          ]
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 1,
+        "inputTokens": 1301,
+        "latencyMs": 80
+      }
+    }
+  },
+  {
+    "id": "X06",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "大田市大田町大田イ421-1",
+      "normalized": "島根県大田市大田町大田 イ421-1",
+      "postalCode": "6940064",
+      "postalCodeKind": "town",
+      "townPostalCode": "6940064",
+      "prefecture": "島根県",
+      "city": "大田市",
+      "town": "大田町大田",
+      "block": "",
+      "building": "イ421-1",
+      "stages": {
+        "prefecture": {
+          "value": "島根県",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "大田市",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "大田町大田",
+          "method": "ai",
+          "probability": 0.99,
+          "confidence": 0.99,
+          "alternatives": [
+            {
+              "option": "大田町大田",
+              "probability": 0.99
+            },
+            {
+              "option": "温泉津町太田",
+              "probability": 0.01
+            },
+            {
+              "option": "温泉津町福田",
+              "probability": 0
+            }
+          ]
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 1,
+        "inputTokens": 1470,
+        "latencyMs": 81
+      }
+    }
+  },
+  {
+    "id": "X07",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "秋田県男鹿市脇本脇本脇本",
+      "normalized": "秋田県男鹿市脇本脇本 脇本",
+      "postalCode": "0100342",
+      "postalCodeKind": "town",
+      "townPostalCode": "0100342",
+      "prefecture": "秋田県",
+      "city": "男鹿市",
+      "town": "脇本脇本",
+      "block": "",
+      "building": "脇本",
+      "stages": {
+        "prefecture": {
+          "value": "秋田県",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "男鹿市",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "脇本脇本",
+          "method": "ai",
+          "probability": 0.84,
+          "confidence": 0.83,
+          "alternatives": [
+            {
+              "option": "脇本脇本",
+              "probability": 0.84
+            },
+            {
+              "option": "脇本百川",
+              "probability": 0.04
+            },
+            {
+              "option": "脇本富永",
+              "probability": 0.04
+            }
+          ]
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 1,
+        "inputTokens": 1449,
+        "latencyMs": 103
+      }
+    }
+  },
+  {
+    "id": "X08",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "東京都千代田区霞ヶ関2-1-2",
+      "normalized": "東京都千代田区霞が関2-1-2",
+      "postalCode": "1000013",
+      "postalCodeKind": "town",
+      "townPostalCode": "1000013",
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "town": "霞が関",
+      "block": "2-1-2",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "千代田区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "霞が関",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "X09",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "東京都中央区日本橋一丁目二番三〇一―一二三アパート",
+      "normalized": "東京都中央区日本橋1-2-301-123 アパート",
+      "postalCode": "1030027",
+      "postalCodeKind": "town",
+      "townPostalCode": "1030027",
+      "prefecture": "東京都",
+      "city": "中央区",
+      "town": "日本橋",
+      "block": "1-2-301-123",
+      "building": "アパート",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "中央区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "日本橋",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "X10",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "京都市中京区御幸町通二条下る山本町",
+      "normalized": "京都府京都市中京区山本町",
+      "postalCode": "6040933",
+      "postalCodeKind": "town",
+      "townPostalCode": "6040933",
+      "prefecture": "京都府",
+      "city": "京都市中京区",
+      "town": "山本町",
+      "block": "",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "京都府",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "京都市中京区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "山本町",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "X11",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "大阪府大阪市中央区久太郎町4丁目渡辺-3",
+      "normalized": "大阪府大阪市中央区久太郎町4 渡辺-3",
+      "postalCode": "5410056",
+      "postalCodeKind": "town",
+      "townPostalCode": "5410056",
+      "prefecture": "大阪府",
+      "city": "大阪市中央区",
+      "town": "久太郎町",
+      "block": "4",
+      "building": "渡辺-3",
+      "stages": {
+        "prefecture": {
+          "value": "大阪府",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "大阪市中央区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "久太郎町",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "G01",
+    "townMark": "ng",
+    "zipMark": "ng",
+    "result": {
+      "input": "北海道札幌市西区24-2-2-3-3",
+      "normalized": "北海道札幌市西区24-2-2-3-3",
+      "postalCode": "0630000",
+      "postalCodeKind": "town",
+      "townPostalCode": "0630000",
+      "prefecture": "北海道",
+      "city": "札幌市西区",
+      "town": "",
+      "block": "24-2-2-3-3",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "北海道",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "札幌市西区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "B01",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "京都市上京区東堀川通上長者町上る一町目",
+      "normalized": "京都府京都市上京区一町目",
+      "postalCode": "6028064",
+      "postalCodeKind": "town",
+      "townPostalCode": "6028064",
+      "prefecture": "京都府",
+      "city": "京都市上京区",
+      "town": "一町目",
+      "block": "",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "京都府",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "京都市上京区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "一町目",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": true,
+      "reasons": [
+        "郵便番号候補が複数 (6028064, 6028134, 6028103)"
+      ],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "B02",
+    "townMark": "ok",
+    "zipMark": "partial",
+    "result": {
+      "input": "京都市東山区渋谷通東大路東入２丁目常盤町",
+      "normalized": "京都府京都市東山区常盤町",
+      "postalCode": "6050079",
+      "postalCodeKind": "town",
+      "townPostalCode": "6050079",
+      "prefecture": "京都府",
+      "city": "京都市東山区",
+      "town": "常盤町",
+      "block": "",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "京都府",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "京都市東山区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "常盤町",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": true,
+      "reasons": [
+        "郵便番号候補が複数 (6050079, 6050874)"
+      ],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "M01",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "東京都利島村",
+      "normalized": "東京都利島村",
+      "postalCode": "1000301",
+      "postalCodeKind": "town",
+      "townPostalCode": "1000301",
+      "prefecture": "東京都",
+      "city": "利島村",
+      "town": "",
+      "block": "",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "利島村",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "M02",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "茨城県竜ケ崎市3710",
+      "normalized": "茨城県龍ケ崎市3710",
+      "postalCode": "3010000",
+      "postalCodeKind": "town",
+      "townPostalCode": "3010000",
+      "prefecture": "茨城県",
+      "city": "龍ケ崎市",
+      "town": "",
+      "block": "3710",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "茨城県",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "龍ケ崎市",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "M03",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "宮城県塩釜市旭町1-1",
+      "normalized": "宮城県塩竈市旭町1-1",
+      "postalCode": "9850026",
+      "postalCodeKind": "town",
+      "townPostalCode": "9850026",
+      "prefecture": "宮城県",
+      "city": "塩竈市",
+      "town": "旭町",
+      "block": "1-1",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "宮城県",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "塩竈市",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "旭町",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "M04",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "府中市宮西町2-24",
+      "normalized": "東京都府中市宮西町2-24",
+      "postalCode": "1830022",
+      "postalCodeKind": "town",
+      "townPostalCode": "1830022",
+      "prefecture": "東京都",
+      "city": "府中市",
+      "town": "宮西町",
+      "block": "2-24",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "府中市",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "宮西町",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "M05",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "とうきょうとちよだくかすみがせき2-1-2",
+      "normalized": "東京都千代田区霞が関2-1-2",
+      "postalCode": "1000013",
+      "postalCodeKind": "town",
+      "townPostalCode": "1000013",
+      "prefecture": "東京都",
+      "city": "千代田区",
+      "town": "霞が関",
+      "block": "2-1-2",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "東京都",
+          "method": "ai",
+          "probability": 1,
+          "confidence": 1,
+          "alternatives": [
+            {
+              "option": "東京都",
+              "probability": 1
+            },
+            {
+              "option": "山口県",
+              "probability": 0
+            },
+            {
+              "option": "香川県",
+              "probability": 0
+            }
+          ]
+        },
+        "city": {
+          "value": "千代田区",
+          "method": "ai",
+          "probability": 1,
+          "confidence": 1,
+          "alternatives": [
+            {
+              "option": "千代田区",
+              "probability": 1
+            },
+            {
+              "option": "目黒区",
+              "probability": 0
+            },
+            {
+              "option": "北区",
+              "probability": 0
+            }
+          ]
+        },
+        "town": {
+          "value": "霞が関",
+          "method": "ai",
+          "probability": 1,
+          "confidence": 1,
+          "alternatives": [
+            {
+              "option": "霞が関",
+              "probability": 1
+            },
+            {
+              "option": "神田西福田町",
+              "probability": 0
+            },
+            {
+              "option": "神田鍛冶町",
+              "probability": 0
+            }
+          ]
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 3,
+        "inputTokens": 4865,
+        "latencyMs": 212
+      }
+    }
+  },
+  {
+    "id": "M06",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "神奈川県横浜市港北区新横浜二丁目１００番地４５ 新横浜中央ビル 5F",
+      "normalized": "神奈川県横浜市港北区新横浜2-100-45 新横浜中央ビル 5F",
+      "postalCode": "2220033",
+      "postalCodeKind": "town",
+      "townPostalCode": "2220033",
+      "prefecture": "神奈川県",
+      "city": "横浜市港北区",
+      "town": "新横浜",
+      "block": "2-100-45",
+      "building": "新横浜中央ビル 5F",
+      "stages": {
+        "prefecture": {
+          "value": "神奈川県",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "横浜市港北区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "新横浜",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  },
+  {
+    "id": "M07",
+    "townMark": "ok",
+    "zipMark": "ok",
+    "result": {
+      "input": "愛知県名古屋市中区栄三丁目",
+      "normalized": "愛知県名古屋市中区栄3",
+      "postalCode": "4600008",
+      "postalCodeKind": "town",
+      "townPostalCode": "4600008",
+      "prefecture": "愛知県",
+      "city": "名古屋市中区",
+      "town": "栄",
+      "block": "3",
+      "building": "",
+      "stages": {
+        "prefecture": {
+          "value": "愛知県",
+          "method": "rule",
+          "probability": 1
+        },
+        "city": {
+          "value": "名古屋市中区",
+          "method": "rule",
+          "probability": 1
+        },
+        "town": {
+          "value": "栄",
+          "method": "rule",
+          "probability": 1
+        }
+      },
+      "needsReview": false,
+      "reasons": [],
+      "ai": {
+        "calls": 0,
+        "inputTokens": 0,
+        "latencyMs": 0
+      }
+    }
+  }
+]
